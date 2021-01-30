@@ -18,7 +18,7 @@ setInterval(async function() {
     if(!channel) return;
 
     const connection = await channel.join()
-    connection.play(ytdl(LIVE))
+    connection.play(ytdl(IVE))
   }
 }, 20000)
 
